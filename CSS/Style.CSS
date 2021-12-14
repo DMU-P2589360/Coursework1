@@ -1,0 +1,81 @@
+h1 { /*Style of main heading*/
+text-align: center; /*Text align to make the heading central*/
+background-color:blue; /*Styling to make background of heading blue to match colour scheme of film*/
+font-size:40px; /*I made font size 40 pixels to make it large to make it clear it is main heading*/
+font-weight: bolder; /*Made text bolder again to demonstrate it is main heading*/
+outline-style: solid; color: white; /*Added a solid line around the edge to again to draw attention to it */
+position: fixed; /*I made the postion of fixed so that the heading travels with you as you scroll down the page- to add another element of style to my page*/
+width: 100%; /*I made the width 100% to match all the other elements on the page*/
+}
+
+body { /*Styling of the body*/
+  background-color: lightblue; /* I made the background of my webpage lightblue again to match colour scheme */
+  font-family: sans-serif; /* I changed the font of the body so it all matches throughout the webpage */
+}
+
+.Menu{ /*Styling of the naviagtion menu*/
+display: flex; /*I made it into a flexbox to make it easier to style*/
+justify-content: space-around; /* I made it so the text was well spaced*/
+}
+
+nav a { /*The styling of the anchor elements within the navigation menu */
+  color: White; /*Styled the text to white- again to fit the colour theme of the film */
+  padding: 10px; /*I included padding to create space around each anchor element*/
+text-decoration: none; /* I wanted no text decorstion to remove text underline */
+  flex-grow: 1; /*To make the text grow */
+  transition:0.1s; /* Transition to make it easier to go other page on webpage */
+  text-align: center; /*Make the anchor element text central */
+  background-color: blue; /*Make the naviagtion menu background colour blue */
+  font-weight: bolder; /*Make the text bolder to make menu stand out and make it clear thats where you click- making it extremeley accessible*/
+  font-size: 20px; /* I made the font size 20px so that it is bigger than paragraph/footer text but not as big as main heading */
+  outline-style: solid; color: White; /*Like the heading I again included a white outline */
+}
+
+ nav a:hover { /*Styling for when you hover you mouse over the anchor elements */
+   background: white; /* Make the background of the naviagtion menu white */
+   color: black; /*Make text black so that it is not the same as the general anchor element text*/
+   outline-color: white; /*Make the outline colour of it white so it matches colour theme */
+ }
+
+video { /* styling of video (trailer) */
+  width: 100%; /*Made the wdith 100% to match the other elements on the page */
+}
+
+.Synopsis{ /*Styling the paragpraph explaining what the paragraph is about */
+  font-weight: bold; /*Made the text bold so it is clear but not as bold as heading */
+  text-align: center; /*Aligning the text so it is central */
+}
+
+Footer { /* Styling of the footer */
+text-align: center; /*Aligning the footer text so it is central */
+font-weight: bold;/*Made the text bold so it is clear but not as bold as heading */
+background-color: Blue; /*Make the footer background colour blue */
+display: flex; /*I made it into a flexbox to make it easier to style*/
+flex-direction: column; /*Make the direction of the flexbox column (text vertical) */
+margin-top: 20px; /*Added a margin above the footer so that it is seperate from the text/content above */
+}
+
+Footer a{ /*The styling of the text within the footer*/
+text-decoration: none; /* I wanted no text decorstion to remove text underline */
+color: white; /*Styled the text to white- again to fit the colour theme of the film */
+padding: 5px; /*I included padding to create space around the text*/
+}
+
+Footer a:hover{ /*Styling for when you hover you mouse over the anchor elements */
+text-decoration: none; /* I wanted no text decorstion to remove text underline */
+color: black; /*Make text black so that it is not the same as the general anchor element text*/
+padding: 5px; /*I included padding to create space around the text*/
+}
+
+img{ /*Styling of the images */
+  border-radius: 8px;
+  width: 360px; /*Width 360px to make the images all the same width/horizontel*/
+  height: 200px; /*Height 200px to make the images all the height/horizontel*/
+  margin: 15px; /*Inlcuded margin around image so the text wasnt too close */
+  float: left; /*So that the image stay on the left hand side */
+}
+
+
+P { /*Styling of paragraph text */
+font-weight: bold; /*Made the text bold so it is clear but not as bold as heading */
+}
