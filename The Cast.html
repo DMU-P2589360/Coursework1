@@ -1,0 +1,72 @@
+<!DOCTYPE html> <!--Shows this a HTML document-->
+<html lang="en" dir="ltr"> <!--Start of HTML--> <!--langauge english --> <!--Direction-left to right-->
+  <head> <!-- Start of head -->
+    <meta charset="utf-8"> <!--telling your browser to use the UTF-8 character encoding- converts characters into machine readable text-->
+    <link rel="stylesheet" href="CSS\Style.CSS">  <!-- Link to CSS stylesheet--> <!-- rel-Specfies the relationship between this page and the link- in this case it is this pages stylesheet--> <!--href-specifies the link destination-->
+    <meta name='viewport' content='width=device-width,inital scale=1.0"'> <!--meta name= viewport-the user's visible area of the page--> <!--width=device-width- tells the browser that the width of the page should follow the width of the screen of the device, initial-scale=1.0- tells the browser the initial zoom level wanted when the page is first loaded by a user-->
+    <title> The cast </title> <!--defines the document's title, this title is shown in the browser's title bar or the page's tab--> <!--In this case it is the cast-->
+  </head><!-- End of head-->
+
+  <body> <!--Start of body-->
+
+     <section class="Heading"> <!--Given this section the class name "heading" so seperate style rules can be given if needed-->
+       <h1>The Cast</h1> <!--Main header telling viewer this page is about the cast of the film--> <!--h1- defines most important heading-->
+     </section> <!-- End of section-->
+
+<br><br><br><br> <!--Page breaks to make it so the fixed header doesn't overlap the navigation menu-->
+
+<nav class="Menu"> <!--I have used a Nav element as it contains the navigation menu-anchor elements that link both pages of the website together--> <!--I have given this nav section the class name "menu" so I can give it seperate style rules if needed-->
+  <a href="Home.html">Home</a> <!--Anchor element which links to the home page--> <!--href-specifies the link destination-->
+  <a href="The Cast.html">Cast</a> <!--Anchor element which links to the cast page--> <!--href-specifies the link destination-->
+</nav> <!--End of nav element-->
+
+<section class="Idina"> <!--Given section class name "Idina" so seperate style rules can be given if needed and to give each cast member their own section--> <!--Section on Idina Menzel who plays Elsa-->
+  <img src="Image/Idina.jpeg" alt="Idina"> <!--Image element including image of Idina--> <!--src- tells the browser where the image is- in image folder then jpeg file labelled Idina.jpeg--> <!-- alt- includes the text shown if image doesnt load properly within the user's browser, it shows what the image should be and that an image should be there-->
+  <h2>Idina Menzel (Elsa)</h2> <!--Heading telling the user this information is about Idina who plays Elsa--> <!--h2 defines an important heading but not as important as h1-->
+  <p>Idina Kim Menzel is an American actress and singer. She is known for her powerful mezzo-soprano voice and signature belting technique.
+  She is most famously known for playing Maureen Johnson in Rent and Elphaber in Wicked on Broadway and Elsa in Frozen and Frozen 2.Menzel has voiced Elsa in Disney's 3D computer-animated musical Frozen franchise and related media since 2013; the song she recorded for the first film, "Let it Go", became widely popular and won the Academy Award for Best Original Song. An international phenomenon, "Let It Go" peaked at number five on the Billboard Hot 100, in turn making Menzel the first Tony Award-winning actor to have a top-10 song on the chart.</p> <!--Paragraph element including text about Idina-->
+  <audio controls> <!--Audio element including sources for the audio element--> <!--Controls- allows the audio to be controlled and be played- it wouldn't work for the user otherwise-->
+  <source src="Audio\Idina.mp3" type="audio/mp3"> <!--Default audio file format for the audio for most browsers--> <!--Source element including source of audio and the file type--> <!-- src- tells the browser where to find the audio- in audio folder, then mp3 file labelled Idina.mp3--> <!-- Type-tells the browser it's an audio file and the file type is mp3-->
+  <source src="Audio\Idina.ogg" type="audio/ogv"> <!--1st fallback file format if mp3 doesn't work--> <!--Source element including source of audio file and the file type--> <!-- src- tells the browser where to find the audio- in audio folder, then ogg file labelled Idina.ogg--> <!-- Type-tells the browser it's an audio file and the file type is ogv-->
+  <source src="Audio\Idina.wav" type="audio/wav"> <!--2nd Fallback file format if mp3 and ogg doesn't work--> <!--Source element including source of audio file and file type--> <!-- src- tells the browser where to find the audio- in audio folder, then wav file labelled Idina.wav--> <!-- Type-tells the browser it's an audio file and the file type is WAV -->
+  <p>Sorry your browser does not support this audio but please download mp3 here:</p> <!--If none of the formats above work through the user's browser I have included a link so they can download the mp3 format and still access the audio file-->
+  <a href="Audio\Idina.mp3">mp3</a> <!-- Anchor element that inlcudes a link to the mp3 file format of the audio-if all the file formats do not work through the user's browser--> <!--href-specifies the link destination-->
+</audio> <!--End of HTML included in audio element-->
+</section> <!--End of section-->
+
+<section class="Kristen"> <!--Given section class name "Kristen" so seperate style rules can be given if needed and to give each cast member their own section--> <!--Section on Kristen Bell who plays Anna-->
+  <img src="Image/Kristen.jpeg" alt="Kristen"> <!--Image element including image of Kirsten--> <!--src- tells the browser the where image is- in image folder, then jpeg file labelled Kristen.jpeg--> <!-- Alt-Includes the text shown if image doesnt load properly within the user's browser- it shows what the image should be and that an image should be there-->
+  <h2>Kristen Bell (Anna)</h2> <!--Heading telling the user this information is about Kristen who plays Anna--> <!--h2 defines an important heading but not as important as h1-->
+  <p>Kristen Anne Bell who was born on July 18th 1980 is an American actress. She began her professional acting career by starring in stage productions while attending the Tisch School of the Arts at New York University. In 2001, she made her Broadway stage debut as Becky Thatcher in the comedy musical The Adventures of Tom Sawyer and appeared in a Broadway revival of The Crucible the following year. Bell garnered further recognition for voicing Princess Anna in the Disney animated films Frozen (2013), Ralph Breaks the Internet (2018), and Frozen II (2019), and the short films Frozen Fever (2015) and Olaf's Frozen Adventure (2017) </p> <!--Paragraph element including text about Kristen-->
+  <audio controls> <!--Audio element including sources of the audio files--> <!--Controls- allows the audio to be controlled and be played- it wouldn't work for the user otherwise-->
+  <source src="Audio/Kristen.mp3" type="audio/mp3"> <!--Default audio file format for the audio for most browsers--> <!--Source element including source of audio file and file format--> <!-- src- tells the browser where to find the audio- in audio folder, then mp3 file labelled Kristen.mp3--> <!-- Type-tells the browser it's an audio file and the file type is mp3-->
+  <source src="Audio/Kristen.ogg" type="audio/ogv"> <!--1st fallback file format if mp3 doesn't work--> <!--Source element including source of audio file and file format--> <!-- src- tells the browser where to find the audio- in audio folder, then ogg file labelled Kristen.ogg--> <!-- Type-tells the browser it's and audio file and that the file type is ogv -->
+  <source src="Audio/Kristen.wav" type="audio/wav"> <!--2nd Fallback file format if mp3 and ogg doesn't work--> <!--Source element including source of audio file and file type--> <!-- src- tells the browser where to find the audio- in audio folder, then wav file labelled Kristen.wav--> <!-- Type-tells the browser it's and an audio file and the file type is wav-->
+  <p>Sorry your browser does not support this audio but please download mp3 here:</p> <!--If none of the formats above work through the user's browser I have included a link so they can download the mp3 format and still access the audio file-->
+  <a href="Audio/Kristen.mp3">mp3</a>  <!-- Anchor element that inlcudes a link to the mp3 file format of the audio if all the other file formats do not work through the user's browser so they can still access the audio--> <!--href-specifies the link destination-->
+  </audio> <!--End of HTML included in audio element-->
+</section> <!--End of section-->
+
+
+<section class="Josh"> <!--Given section class name "Josh" so seperate style rules can be given if needed and to give each cast member their own section--> <!--Section on Josh Gad who plays Olaf-->
+  <img src="Image/Josh.jpg" alt="Josh"> <!--Image element including image of Josh--> <!--src- tells the browser where the image is- in image folder, then jpeg file labelled Josh.jpeg--> <!-- Alt- Includes the text shown if the image doesnt load properly within the browser- it shows what the image should be and that an image should be there-->
+  <h2>Josh Gad (Olaf)</h2> <!--Heading telling the user this information is about Josh--> <!--h2 defines an important heading but not as important as h1-->
+  <p>Joshua Ilan Gad was born on 23rd February 1981 is an American actor. He is known for voicing Olaf in the Frozen franchise, playing Elder Arnold Cunningham in the Broadway musical The Book of Mormon, and playing LeFou in the live-action adaptation of Disney's Beauty and the Beast. For his role as Olaf, Gad won two Annie Awards, and for his work in The Book of Mormon, he received a Tony Award nomination for Best Actor in a Musical. Gad reprised his role of Olaf in the sequel Frozen II as well as the video game Kingdom Hearts III</p> <!--Paragraph element including text about Josh-->
+  <audio controls> <!--Audio element including sources of the audio files--> <!--Controls- allows the audio to be controlled and be played- it wouldn't work for the user otherwise-->
+  <source src="Audio/Josh.mp3" type="audio/mp3"> <!--Default audio file format for the audio for most browsers--> <!--Source element including source of audio file and the file format--> <!-- src- tells the browser where to find the audio- in audio folder, then mp3 file labelled Josh.mp3--> <!-- Type- tells the browser it's an audio file and the file type is mp3-->
+  <source src="Audio/Josh.ogg" type="audio/ogv"> <!--1st fallback file format if mp3 doesn't work--> <!--Source element including source of audio file and file type--> <!-- src- tells the browser where to find the audio- in audio folder, then ogg file labelled Josh.ogg --> <!-- Type-tells the browser it's an audio file and the file type is ogv-->
+  <source src="Audio/Josh.wav" type="audio/wav"> <!--2nd Fallback file format if mp3 and ogg doesn't work--> <!--Source element including source of audio file and file type--> <!-- src- tells the browser where to find the audio- in audio folder, then wav file labelled Josh.wav--> <!-- Type-tells the browser it's and an audio file and the file type is wav-->
+  <p>Sorry your browser does not support this audio but please download mp3 here:</p> <!--If none of the formats above work through the user's browser I have included a link so they can download the mp3 format and still access the audio file-->
+  <a href="Audio/Josh.wav">mp3</a> <!-- Anchor element that inlcudes a link to the mp3 file format of the audio if all the other file formats do not work through the user's browser--> <!--href-specifies the link destination-->
+</section> <!--End of section-->
+
+<footer> <!--Start of footer element-->
+<p>P2589360</p> <!--Paragraph element including my P number-->
+<a href="https://en.wikipedia.org/wiki/Josh_Gad">Josh Gad-Wikipedia</a> <!-- Anchor element that inlcudes a link to a wikipedia page on Josh Gad--> <!--href-specifies the link destination-->
+<a href="https://en.wikipedia.org/wiki/Kristen_Bell">Kristen Bell-Wikipedia</a> <!-- Anchor element that inlcudes a link to a wikipedia page on Kristen Bell--> <!--href-specifies the link destination-->
+<a href="https://en.wikipedia.org/wiki/Idina_Menzel">Idina Menzel-Wikipedia</a> <!-- Anchor element that inlcudes a link to a wikipedia page on Idina Menzel--> <!--href-specifies the link destination-->
+</footer> <!--End of footer element-->
+
+
+  </body> <!--End of body-->
+</html> <!--End of HTMl-->

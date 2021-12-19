@@ -1,0 +1,44 @@
+<!DOCTYPE html> <!--Shows this a HTML document-->
+<html lang="en" dir="ltr"> <!--Start of HTML--> <!--langauge english --> <!--Direction-left to right-->
+  <head> <!-- Start of head -->
+    <meta charset="utf-8"> <!--telling the browser to use the UTF-8 character encoding- converts characters into machine readable text-->
+    <link rel="stylesheet" href="CSS\Style.CSS"> <!-- Link to CSS stylesheet--> <!-- rel-Specfies the relationship between this page and the link- in this case it is this pages stylesheet--> <!--href-specifies the link destination-->
+    <meta name="viewport" content="width=device-width, inital scale=1.0"> <!--meta name= viewport- the user's visible area of the page--> <!--width=device-width- tells the browser that the width of the page should follow the width of the screen of the device, initial-scale=1.0- tells the browser the initial zoom level wanted when the page is first loaded by a user-->
+    <title> Frozen 2 </title> <!--defines the document's title, this title is shown in the browser's title bar or the page's tab--> <!--In this case it is Frozen 2-->
+  </head> <!-- End of head-->
+
+<body><!--Start of body-->
+
+  <section class="Heading"> <!--Given section class name "heading" so seperate style rules can be given if needed-->
+     <h1>Frozen 2</h1>  <!--Main heading telling the user what film the website is about--> <!--h1- defines most important heading-->
+  </section> <!--end of section-->
+
+<br><br><br><br> <!--Page breaks to make it so the fixed header does not overlap the navigation menu-->
+
+<nav class="Menu"> <!--I have used a Nav element as it contains the navigation menu- anchor elements that link both pages of the website together--> <!--I have given this nav section the class name "menu" so I can give it seperate style rules if needed-->
+  <a href="Home.html">Home</a> <!--Anchor element which links to the home page--> <!--href-specifies the link destination-->
+  <a href="The Cast.html">Cast</a> <!--Anchor element which links to the cast page--> <!--href-specifies the link destination-->
+</nav> <!--End of nav element-->
+
+<section class="Synopsis"> <!--Given section class name "synopsis" so seperate style rules can be given if needed" --> <!-- Synopsis section explains what the film is about-->
+<p>Elsa the Snow Queen has an extraordinary gift -- the power to create ice and snow. But no matter how happy she is to be surrounded by the people of Arendelle, Elsa finds herself strangely unsettled. After hearing a mysterious voice call out to her, Elsa travels to the enchanted forests and dark seas beyond her kingdom -- an adventure that soon turns into a journey of self-discovery.</p> <!-- Paragraph element including text explaning what the film is about-->
+</section> <!--End of section-->
+
+<section class="video"> <!--Given section class name "video" so seperate style rules can be given if needed-->
+<video controls poster="Image\Trailer image.jpeg" width="100%"> <!--Video element-including all the html which tells the browser everything it needs to know in relation to displaying the video files--> <!-- Included controls so that the video can be controlled and played (wouldn't work for the user other wise)--> <!--Poster-used so that there is a image that covers the trailer--> <!-- Made the Width 100% so it fills the whole page-->
+<source src="Video\Trailer.mp4"  type="video/mp4"> <!--Default video file format for the trailer for most browsers--> <!--Source element includes source of the file and the file format--> <!--src- tells the browser where to find the video file- in the video folder, then mp4 file labelled trailer.mp4--> <!-- Type tells the browser it is a video file and the file type is mp4-->
+<source src="Video\Trailer.webm" type="video/webm"> <!--1st fallback format if mp4 doesn't work--> <!--Source element including source of the file and the file format--> <!-- src- tells the browser where to find the video file- in the video folder, then webm file labelled trailer.webm--> <!-- Type tells the browser it's a video file and the file type is webm-->
+<source src="Video\Trailer.ogg" type="video/ogv"> <!--2nd Fallback format if mp4 and webm doesn't work--> <!--Source element including source of the file and the file type--> <!-- src- tells the browser where to find the video file- in video folder, then ogg file labelled trailer.ogg--> <!-- Type tells the browser it's a video file and the file type is ogv-->
+<p>Sorry your browser does not support this audio but please download mp4 here:</p> <!--If none of the formats above work through the user's browser I have included a link so they can download the mp4 format and still access the video file-->
+<a href="Video\Trailer.mp4">mp4</a> <!-- Anchor element that inlcudes a link to download the mp4 file format of the trailer if all the other video formats do not work--> <!--href-specifies the link destination-->
+</video> <!--End of HTML included in video element-->
+</section> <!-- End of section-->
+
+<footer> <!--Start of footer element-->
+<p>P2589360</p> <!-- Paragraph element including My P number-->
+<a href="https://www.youtube.com/watch?v=Zi4LMpSDccc">Trailer</a> <!--Anchor element linking to the trailer on youtube--> <!--href-specifies the link destination-->
+<a href="https://en.wikipedia.org/wiki/Frozen_II">Wikipedia</a> <!-- Anchor element linking to wikipedia page on Frozen 2--> <!--href-specifies the link destination-->
+</footer> <!--End of footer element-->
+
+</body> <!--End of body-->
+</html> <!--End of HTML-->

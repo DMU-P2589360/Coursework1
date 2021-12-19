@@ -1,0 +1,79 @@
+h1 { /*Below is all the styling for the main heading (H1 element)*/
+text-align: center; /*Text align- Allows you to state how you want to align the text*/ /*I used text align then the center option to make the header central*/
+background-color:blue; /*Background color- allows you to change the background colour of the element then you state what colour you would like to change it to*/ /*I used words to describe what colour I would like the background colour to be*/ /*I chose the colour blue as it is different to the background colour that I have used to style the body and it matches the theme of the film*/
+font-size:40px; /*Font size- allows you change the size of the text*/ /*I used pixels as it is same as you would use within a word document*/ /*I used font size then 40 px- I made the text 40px to make the text large as it is the main heading*/
+font-weight: bolder; /*Font weight- allows you to change the weight/thickness of the text*/ /* I used font-weight then bolder option to make the header the boldest it can be, to make it stand out as it is the main heading */
+outline-style: solid; color: white; /*Outline style- allows you the change the styling around/surrounding the element*/ /*I used outline style- then used solid option- I used the solid option so the line was thick and bold, again to make the heading stand out, after the solid option I included color option to style the colour of the outline I chose the colour white (I used words to describe the colour I wanted the outline line to be) as it matches the colour theme of the film */
+position:fixed;; /*Position- allows you to explain how you would like the element to be positioned in relation to everything else on the page*/ /* I used postion then the fixed option as I wanted the heading to stay fixed at the top of page so that even when you scrolled down the page the heading is still there*/
+width: 100%; /*Width- allows you to alter the width of the element*/ /*I made the width 100%- meaning it fills the entire width of page, I wanted this as it is the main heading*/
+margin: 10px; /*Margin- allows you to include space around the element, so there is no clash with other elements*/ /*I used pixels as it is same as you would use within a word document*/ /*I used Margin- then stated I wanted it to be 10px, I made it 10px so it made enough of an impact but didn't effect the layout too drastically*/
+}
+
+body { /*Below is all the styling of the body- so this styling is shown across the entire page*/
+  background-color: lightblue; /*Background color- as I am styling the body, this changes the background colour of the whole page*/ /*I used words to describe what colour I would like the background colour to be*/ /*I chose the colour light blue as it is different to the background colour that I have used to style the heading (h1) and also it matches the theme of film*/
+  font-family: papyrus; /*Font family- allows you to alter the font of the text*/ /* I used font family- then papyrus font, I chose papyrus as I feel it is the font that matches the theme of the film the best*/
+}
+
+.Menu{ /*.menu- is the class name for the navigation menu section- allows me to specifically style just the navigation menu, rather than every single section on my website*/ /*Below is all the styling of the navigation menu*/
+display: flex; /*I have used the display then flex option to turn this element into a flexbox*/ /* A flexbox is a way within CSS of laying out items- therefore it is an easier/more straightforward way of stating how you would like certain elements/items to be laid out*/
+justify-content: space-around; /*Following now turning the element into a flexbox I can now do a lot more to style it*/ /*Justify content-aligns the items when they do not use all available space*/ /*I inlcuded justify content then the space around option as I wanted there to be space around the items included in the navigation menu (flexbox) so they are not too close together and clash*/
+margin: 10px; /*Margin- allows you to include space around the element- so there is no clash with other elements*/ /*I used pixels as it is same as you would use within a word document*/ /*I used Margin- then stated I wanted it to be 10px, I made it 10px so it made enough of an impact and created a gap between the naviagtion menu and other content on the page but didn't effect the layout too drastically*/
+}
+
+nav a { /*Below is all the styling of the anchor elements included in the navigation menu- when the mouse is not hovered over the anchor element*/
+  color: White; /*Color- allows you to state the colour that you would the element/item to be*/ /*I used words to describe the colour I would like the anchor elements to be styled as*/ /*I chose to style the anchor elements as the colour white as it matches the colour theme of the film*/
+  padding: 10px; /* Padding- is the space between its content and its border*/ /*I inlcuded padding as I wanted there to be space all around the anchor elements to make it more explciit and accessible for the user*/ /* I used padding then made it 10 px, I used pixels as it is same as you would use within a word document, I made it 10px so it made enough of an impact but didn't effect the layout too drastically*/
+  text-decoration: none; /* Text decoration- allows you to state whether you would like any underline, overline or line through the element, I wanted no text decoration to remove the underline from the anchor elements*/
+  flex-grow: 1; /*Following turning the menu element into a flexbox I can now do a lot more to style it*/ /*Flex-grow- specifies how much the item will grow relative to the items inside the container*/ /*I used flex grow then option 1 as I wanted the enchor elements to grow slightly but not too much that it has a drastic effect to the styling*/
+  transition:0.1s; /*Transition- rather than the property changes taking effect immediately (in this case change from home page to the cast page or vise versa), you can make it take place over a period of time, I chose to make it take place over 0.1s, this is so the effect makes a difference but doesnt hinder the accessibilty for the user*/
+  text-align: center; /*Text align- Allows you to state how you want to align the text*/ /*I used text align then the center option to make the anchor elements central*/
+  background-color: blue; /*Background color- changes the background colour of the element then you include what colour you would like to change it too*/ /*I used words to describe what colour I would like the background colour to be*/ /*I chose the colour blue as it is different to the background colour that I have used to style the body, it matches the main heading and it also matches the theme of the film*/
+  font-weight: bold; /*Font weight- allows you to change the weight/thickness of the text*/ /* I used font-weight then bold option to make the anchor elements stand out so it's accessible for the user but not as bold as the main heading (h1)*/
+  font-size: 20px; /*Font size- allows you change the size of the text*/ /*I used pixels as it is same as you would use wihtin a word document*/ /*I used font size then 20 px- I made the text 20px to make the anchor elements fairly large to make it accessible for the user but not as large as the main heading (h1)*/
+  outline-style: solid; color: White; /*Outline style- allows you to change the styling around the element*/ /*I used outline style- then used solid option- I used the solid option so the line was thick and bold to make it stand out, after the solid option I included color option to style the colour of the outline line, I chose the colour white (I used words to describe the color I wanted the outline line to be) as it matches the colour theme of the film*/
+/*Overall, I wanted the styling of the navigation menu to match the main heading but stil make the header the main feature*/
+}
+
+ nav a:hover { /*Below is all the styling of anhcor elements included in the navigation menu- when the mouse hovers over the anchor element*/
+   background: white; /*Background- adds background effects to element*/ /*I used background then the option to change the color of the background, as I wanted the background of the anchor element to turn white (I used words to describe what colour I would like the background colour to be) when hovered over by the mouse to make it clear to the user if they click on the element it will link them to another page as it is a different colour then before*/
+   outline-color: white; /*Outline-color= allows you to state what colour you would like the outline of the element to be when a mouse is hovered over it*/ /*I used outline-color then stated the colour white (I used words to describe what colour I would like the outline colour to be), I wanted it to be the colour white as I wanted it to be the same as colour as the background*/
+   color:black; /*Color- allows you to state the colour that you would like the element/item to be*/ /*I used words to describe the colour I would like the anchor elements to be styled as*/ /*I chose to style the anchor elements when the mouse is hovered over them as the color black as it makes it clear to the user if they click on the element it will link them to another page as it is a different colour then before*/
+ }
+
+video { /*Below is all the styling of the video element (trailer)*/
+  width: 100%; /*Width- allows you to alter the width of the element*/ /*I made the width 100%- meaning it fills the entire width of page I wanted this so the video/trailer is clearly useable and accessible for the user*/
+}
+
+.Synopsis{ /*.Synopsis- is the class name for the section that includes the synopsis of the film- allows me to specifically style just the synopsis, rather than every single section on my website*/ /*Below is all the styling of the synopsis section*/
+  font-weight: bold; /*Font weight- allows you to change the weight/thickness of text*/ /* I used font-weight then bold option to make the text stand out but not as bold as the heading (h1)*/
+  text-align: center; /*Text align- allows you to state how you want to align the text*/ /*I used text align then the center option to make the text central*/
+}
+
+Footer { /*Below is all the styling of the footer overall- not just the anchor elements*/
+text-align: center; /*Text align- allows you to state how you want to align the text*/ /*I used text align then the center option to make the items within the footer central*/
+font-weight: bold; /*Font weight- allows you to change the weight/thickness of the text*/ /* I used font-weight then bold option to make the items within the footer stand out so it's accessible for the user but not as bold as the heading (h1)*/
+background-color: Blue; /*Background color- allows you to change the background colour of the element then you state what colour you would like to change it too*/ /*I used words to describe what colour I would like the background colour to be*/ /*I chose the colour blue as it is different to the background colour that I have used to style the body, it matches the header and it also matches the theme of film*/
+display: flex; /*I have used the display then flex option to turn this element into a flexbox*/ /*A flexbox is a way within CSS of laying out items- therefore it is an easier/more straightforward way of stating how you would like certain elements/items to be laid out*/
+flex-direction: column; /*Following now turning the element into a flexbox I can now do a lot more to style it*/ /*Flex direction-Sets the direction of the items inside the flex box (footer), column-makes the flexbox and the items inside vertical, I inlcuded flex direction, then the columm option as I wanted the items within the footer (flexbox) to be vertrical*/
+margin-top: 20px; /*Margin- allows you to include space around the element- so there is no clash with other elements*/ /*I used pixels as it is same as you would use within a word document*/ /*I used Margin, then top option, stating I wanted the margin above the footer, I then stated I wanted it to be 20px, I made it 20px as I wanted a relatively big gap between the footer and the above content to highlight is a footer*/
+}
+
+Footer a{ /*Below is all the styling of the anchor elements within the footer- when the mouse is not hovering over the anchor elements*/
+text-decoration: none; /* Text decoration- allows you to state whether you would like any underline, overline or line through the element, I wanted no text decoration to remove the underline from the anchor elements*/
+color: white; /*Color- allows you to state the colour that you would like the element/item to be*/ /*I used words to describe the colour I would like the anchor elements to be styled as*/ /*I chose to style the anchor elements as the color white as it matches the colour theme of the film*/
+padding: 5px; /* Padding- is the space between its content and its border*//*I inlcuded padding as I wanted there to be space all around the anchor elements to make it more explcit and accessible for the user*/ /* I used padding then made it 5 px, I used pixels as it is the same as you would use within a word document,I made it 5px so the anchor elements are not too close together but not too big a gap that it ruins the style */
+}
+
+Footer a:hover{ /*Below is all the styling of the anchor elements within the footer- when the mouse is hovered over the anchor elements*/
+text-decoration: none; /* Text decoration- allows you to state whether you would like any underline, overline or line through the element, I wanted no text decoration to remove the underline from the anchor elements*/
+color: black; /*Color- allows you to state the colour that you would the element/item to be*/ /*I used words to describe the color I would like the anchor elements to be styled as*/ /*I chose to style the anchor elements when the mouse is hovered over them as the color black as it makes it clear to the user if they click on the element it will link them to another page as it is a different colour then before*/
+padding: 5px; /* Padding- is the space between its content and its border*//*I inlcuded padding as I wanted there to be space all around the anchor elements to make it more explciit and accessible for the user*/ /* I used padding then made it 5 px, I used pixels as it is same as you would use within a word document,I made it 5px so the anchor elements are not too close together but not too big a gap that it ruins the style */
+}
+
+img{ /*Below is all the styling of all images within the image element*/
+  border-radius: 8px; /*Border-radius-defines the radius of the element's corners*/ /*I included border radius then 8px, I used pixels as it is the same as you would use within a word document, I made it 8px so it styled the image edges to be rounded*/
+  width: 360px; /*Width- allows you to alter the width of the element*/ /*I made the width 360px- I used pixels as it is the same as you would use within a word document, I made it 360px to make the images landscape and the same width and height*/
+  height: 200px; /*Height- allows you set the height of the element*/ /*I made the height 200px- I used pixels as it is the same as you would use within a word document, I made it 200px to make the images landscape and the same width and height*/
+  margin: 15px; /*Margin- allows you to include space around the element- so there is no clash with other elements*/ /*I used pixels as it is same as you use within a word document*/ /*I used Margin- then stated I wanted it to be 15px, I made it 15px so it there was a decent gap between the images and the text so they dont clash and arent too close together*/
+  float: left; /*Float-used for positioning and formatting content*/ /*I inlcuded float then left option, as I wanted the images to float and rest towards the left hand side- to match the desired layout*/
+}
